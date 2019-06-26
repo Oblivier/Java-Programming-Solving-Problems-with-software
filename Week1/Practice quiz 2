@@ -1,0 +1,21 @@
+1. Question 1
+What is the value of c after these lines execute?
+int a = 5;
+int b = 3;
+int c = 4;
+c = a + b ;
+8 -> Correct Response 
+
+2. Question 2
+What is the value of c after these lines execute?
+int a = 1 ;
+int b = a + 2 ;
+int c = b + b ;
+6 -> Correct Response 
+
+3. Question 3
+What is the value of c after these lines execute?
+int a = 3 ;
+int b = 4 + a / 2 ;
+int c = b % 3 ;
+2 -> Correct Response 

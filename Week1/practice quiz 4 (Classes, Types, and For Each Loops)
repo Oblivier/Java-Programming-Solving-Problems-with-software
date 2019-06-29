@@ -1,0 +1,112 @@
+Question 1
+Consider the following BlueJ program.
+public class Mystery {
+  
+  /**
+   * read file of mysterious phrases
+   */
+   
+  public void DoSomething() {
+    // initialize instance variables
+    FileResource someFile = FileResource("phrases.txt");
+    for (String phrase : someFile.lines()){
+      System.out.println(phrase);
+    }
+  }
+}
+Which one of the following is the name of a method?
+DoSomething <- Correct 
+Mystery
+phrase
+someFile
+
+Question 2
+Consider the following Java class.
+public class Thing {
+  private int a;
+  public Thing(int x) {
+    a = x;
+  }
+  public int geta() {
+    return a;
+  }
+  public void print() {
+    int b = 4;
+    System.out.println(geta() + " " + b);
+  }
+}
+Which method is the constructor?
+a
+geta
+print
+Thing <- Correct 
+
+Question 3
+Consider the following Java class.
+public class Thing {
+  private int a;
+  public Thing(int x) {
+    a = x;
+  }
+  public int geta() {
+    return a;
+  }
+}
+And consider the following code segment that uses the class Thing.
+Thing f = new Thing(3);
+Thing g = new Thing(5);
+Thing h = f;
+Thing j = h;
+How many Thing objects are created?
+2 <- Correct Response 
+A new object is created whenever the new keyword is used.
+
+Question 4
+Consider the following code segment that uses the edu.duke FileResource class. The method .length() calculates how many characters are inside a string. For example, for the string "puppy", .length() would calculate a value of 5. We will learn more about strings later in this course.
+FileResource f = new FileResource("words.txt");
+for (String g : f.lines()) {
+  if (g.length() > 5) {
+    System.out.println(g);
+  }
+} 
+Suppose the file words.txt contains the following lines:
+
+cat
+elephant
+monkey
+tiger
+lion
+Which one of the following would be the output from this code segment?
+
+Hint: Be sure to review the documentation for FileResource if you do are not sure what this class does or what methods it contains: http://www.dukelearntoprogram.com/course2/doc/.
+
+elephant, monkey <- Correct 
+This is the correct answer. Only words of length greater than five are printed.
+
+elephant, monkey, tiger
+cat, tiger, lion
+cat, elephant, monkey, tiger, lion
+
+Question 5
+Consider the following Java class.
+public class Thing {
+  private int a;
+  public Thing(int x) {
+    a = x;
+  }
+  public int geta() {
+    return a ;  
+  }
+  public void print() {
+    int b = 4 ;
+    System.out.println(geta() + " " + b);
+  }
+}
+And consider the following code segment that uses the Thing class.
+Thing f = new Thing(4);
+System.out.println(f.geta());
+Which one of the following is NOT a primitive type?
+a
+f <- Correct 
+b
+x
